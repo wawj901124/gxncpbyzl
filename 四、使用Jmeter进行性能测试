@@ -1,0 +1,49 @@
+Jeter简介
+    Apache组织开发的性能测试工具
+    用于模拟大量用户的并发问题
+    最大的优点是完全开源
+
+JMeter基本概念
+    用户 ---发送请求---> 应用服务器
+    JMeter模拟用户 ---发送请求（Sample）（Thread）---> 应用服务器
+
+自动化的一般方法
+    录制--->回放
+
+    代理录制时过滤不需要要的请求：.*\.(bmp|css|js|gif|ico|jpe?g|png|swf|woff)
+
+
+Jmeter简介
+脚本录制
+参数化
+响应中的关键数据析取
+添加断言
+添加用户等待时间
+执行性能测试
+性能测试进行过程中的性能监控
+
+    命令：
+        data
+        sar -q -f sa08
+        sar -p -f sa08
+        sar -r -f sa08
+        sar -B -f sa08
+        sar -b -f sa08
+        sar -n DEV -f sa08
+
+
+Jmeter扩展
+    通过BeanShell进行Java扩展
+    通过BSF进行JavaScript扩展
+    开发自定义的Sample、ConfigElement
+
+
+在jmeter.properties文件中：
+    plugin_dependency_paths=../dependencies
+
+
+Jmeter进阶小结
+    Session支持
+    多用户实现多场景
+    扩展JMeter
+

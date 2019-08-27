@@ -1,0 +1,16 @@
+其它性能监控工具
+    Nmon
+    Nagios
+
+Nmon
+    一个类似Top但是显示功能更加丰富的工具
+    命令：
+        yum list nmon
+        yum install -y nmon
+        nmon
+
+
+Nagios
+    Nagio是一款开源的免费网络监视工具，能有效监控Windows、Linux和Unix的主机状态，交换机路由器等
+网络设置，打印机等。在系统或服务状态异常时发出邮件或短信报警第一时间通知网站运维人员，在状态恢
+复后发出正常的邮件或短信通知。

@@ -1,0 +1,34 @@
+ECShop简介
+    一款开源的网上商店系统
+    虽然开源，但是商业应用需要付费
+    商店功能齐全，使用广泛
+
+ECShop安装
+    下载链接：
+        http://pan.baidu.com/s/1dDAJvZn
+    仅供学习
+
+ECShop使用
+
+    命令：
+        unizip ECShop_V2.7.3_UTF8_release1106.zip
+        cd ECShop_V2.7.3_UTF8_release1106
+        ls
+        ls docs/
+        cp -r upload /ecshop
+        cd /
+        ls
+        cd ecshop/
+        ls
+        || | grep ecshop
+        chown -R apache:apche ecshop
+        ls
+        cp ecshop.conf ecshop01.conf
+        vi ecshop01.conf
+        mkdir log
+        ls
+        || | grep log
+        chown -R apache:apache log
+
+
+
